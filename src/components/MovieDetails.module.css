@@ -1,0 +1,55 @@
+.contenedor{
+    border-radius: 10px;
+      background-color: rgb(0 0 0 / 0.58);
+      color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 20px;
+        color: #fff;
+  }
+
+  .image {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  
+  .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .image img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+    .boton {
+      position: absolute;
+      width: 8%;
+      height: auto;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.7;
+      cursor: pointer;
+      color: blue;
+    }
+    .boton:hover{
+      color: red;
+    }
+
+    .video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }
+      
+  
